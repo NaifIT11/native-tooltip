@@ -32,6 +32,7 @@ button{
     position: absolute;
     top: -5rem;
     left: -1.5rem;
+    visibility: hidden;
     &::before{
         content: "";
         position: absolute;
@@ -44,4 +45,8 @@ button{
         border-bottom-left-radius: 10rem;
         border-bottom-right-radius: 99999px;
     }
+}
+
+div.center:has(button:hover) [role="tooltip"]{
+    visibility: visible;
 }
