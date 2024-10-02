@@ -44,7 +44,9 @@ button{
         height: 1rem;
         border-bottom-left-radius: 10rem;
         border-bottom-right-radius: 99999px;
+        box-shadow: inherit;
     }
+    box-shadow: 0.125rem 0.125rem 0.3rem antiquewhite;
 }
 
 div.center:has(button:hover) [role="tooltip"]{
