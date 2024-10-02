@@ -22,3 +22,14 @@ button{
     left: 50%;
     translate: -50% -50%;
 }
+
+
+
+[role="tooltip"]{
+    padding: 0.625rem 1rem;
+    border-radius: 0.125rem;
+    background-color: antiquewhite;
+    position: absolute;
+    top: -4rem;
+    left: -1.5rem;
+}
